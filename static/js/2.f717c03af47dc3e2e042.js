@@ -1,0 +1,2 @@
+webpackJsonp([2],{Sqv0:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("欢迎访问传说中的 page4 !")])},staticRenderFns:[]},l=n("VU/8")({name:"PAGE_4"},r,!1,null,null,null);t.default=l.exports}});
+//# sourceMappingURL=2.f717c03af47dc3e2e042.js.map

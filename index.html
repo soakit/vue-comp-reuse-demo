@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>vue-comp-reuse-demo</title><script>(function (win) {
+        var env = '"production"'.replace(/"/g, '')
+        var config = {
+          env: env
+        }
+        switch (env) {
+          case 'production':
+            config.routerRoot = '/vue-comp-reuse-demo'
+            break
+          case 'development':
+          default:
+            config.routerRoot = '/'
+            break
+        }
+        win.config = config
+      })(window)</script></head><body><div id=app></div><script type=text/javascript src=/vue-comp-reuse-demo/static/js/manifest.ffc97e7e6c0347357494.js></script><script type=text/javascript src=/vue-comp-reuse-demo/static/js/vendor.74d9fb34d9f5a7ddba56.js></script><script type=text/javascript src=/vue-comp-reuse-demo/static/js/app.f0d3fca80b87323ddfca.js></script></body></html>
