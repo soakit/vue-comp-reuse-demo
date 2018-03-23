@@ -1,0 +1,2 @@
+webpackJsonp([4],{"0CSu":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n("VU/8")({template:'\n    <div v-if="hasRight">欢迎访问传说中的 page0 !</div>\n    <div v-else>不好意思，由于不够帅，你没有权限访问本页面</div>\n  ',name:"PAGE_0",computed:{hasRight:function(){return-1!==this.$store.state.user.rightList.indexOf("RIGHT_"+this.name)}}},null,!1,null,null,null);t.default=i.exports}});
+//# sourceMappingURL=4.2dc1394e2e7c2130f566.js.map

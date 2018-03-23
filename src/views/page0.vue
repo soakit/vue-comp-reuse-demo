@@ -1,7 +1,7 @@
 <script>
 export default {
   template: `
-    <div v-if="hasRight">欢迎访问传说中的 page1 !</div>
+    <div v-if="hasRight">欢迎访问传说中的 page0 !</div>
     <div v-else>不好意思，由于不够帅，你没有权限访问本页面</div>
   `,
   name: 'PAGE_0',

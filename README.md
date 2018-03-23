@@ -1,6 +1,15 @@
 # vue-comp-reuse-demo
 
-> A Vue.js project
+[Visit Demo](http://soakit.github.io/vue-comp-reuse-demo)
+
+  0  : 不考虑组件复用
+
+1 & 2: mixin组件复用
+
+3 & 4: hoc组件复用
+
+5 & 6: vue-hoc组件复用
+
 
 ## Build Setup
 

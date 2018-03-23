@@ -4,6 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>vue-comp-reuse-demo</title>
+    <script>
+      (function (win) {
+        var env = '<%= htmlWebpackPlugin.options.env %>'.replace(/"/g, '')
+        var config = {
+          env: env
+        }
+        switch (env) {
+          case 'production':
+            config.routerRoot = '/vue-comp-reuse-demo'
+            break
+          case 'development':
+          default:
+            config.routerRoot = '/'
+            break
+        }
+        win.config = config
+      })(window)
+    </script>
   </head>
   <body>
     <div id="app"></div>
