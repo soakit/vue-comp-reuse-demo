@@ -6074,6 +6074,10 @@ vue-eslint-parser@^2.0.3:
     esquery "^1.0.0"
     lodash "^4.17.4"
 
+vue-hoc@^0.3.1:
+  version "0.3.1"
+  resolved "https://r.cnpmjs.org/vue-hoc/download/vue-hoc-0.3.1.tgz#187f1e57d34e25d0d2eb5641b734263b8d01d1f9"
+
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"
   resolved "https://r.cnpmjs.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
